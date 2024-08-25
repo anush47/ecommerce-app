@@ -1,0 +1,27 @@
+.login-icon{
+    fill: var(--bg-accent);
+    width: 35%;
+}
+
+.login-form{
+    width: 70%;
+}
+
+.input-field{
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--main-blue);
+    transition: border ease 0.2s;
+    background-color: transparent;
+    margin: 2px;
+}
+
+.input-field:focus{
+    outline: none;
+    border: 2px solid #6c63ff;
+}
+
+.input-field-title{
+    font-size: 15pt;
+
+}

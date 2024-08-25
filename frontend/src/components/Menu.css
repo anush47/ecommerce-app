@@ -1,0 +1,38 @@
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    background-color: aliceblue;
+  }
+  
+  .menu-item {
+    position: relative;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
+  
+  .menu-item .menu {
+    display: none;
+    position: absolute;
+    top: 10%;
+    right: 95%;
+    background:aliceblue;
+    margin-top: 0.5rem;
+    /* left: 0; */
+    z-index: 1000;
+  }
+  
+  .menu-item:hover > .menu {
+    display: block;
+    color: black;
+  }
+  
+  .menu-item .menu-item {
+    clear: both;
+  }
+  
+  .menu-item:hover {
+    background-color: var(--main-blue);
+    color: white;
+  }

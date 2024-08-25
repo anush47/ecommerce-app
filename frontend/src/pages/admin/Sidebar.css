@@ -1,0 +1,11 @@
+.sidebar-container{
+    grid-column: 1/2;
+    background-color: white;
+    grid-row: 2/3;
+    box-shadow: 5px 1px 6px rgba(38, 50, 40, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-around;
+}

@@ -1,0 +1,72 @@
+.step-indicator{
+    display: flex;
+}
+
+.step-dot {
+    height: 15px;
+    width: 15px;
+    background-color: #93deff;
+    margin: 0 5px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(38, 50, 40, 0.2);
+}
+
+.step-dot.active{
+    background-color: var(--main-blue);
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.reg-icon{
+    fill: var(--bg-accent);
+    width: 50%;
+}
+
+.register-container{
+    height: 70vh;
+    width: 50vw;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(38, 50, 40, 0.2);
+    background-color: white;
+    max-width: 550px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px 20px 20px;
+}
+
+
+.reg-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 5fr 1fr 1fr;
+}
+
+.reg-title-and-img-cont{
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg-field-cont{
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+}
+
+.reg-button-cont{
+    grid-row: 3/4;
+    display: flex;
+}
+
+.reg-step-and-text-cont{
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
